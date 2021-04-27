@@ -17,10 +17,13 @@
               <div class="top">
                 <a href="main.html" class="top__logo logo">News.kg</a>
                 <nav class="nav top__nav">
-                  <a href="#" class="top__nav__link">Главная</a>
+                    
+                  <a href="main.html" class="top__nav__link">Главная</a>
                   <a href="allNews.html" class="top__nav__link">Новости</a>
                   <a href="addNews.html" class="top__nav__link">Добавить</a>
                 </nav>
+
+
                 <a href="#" class="top__btn btn">Регистрация</a>
               </div>
             </div>
@@ -71,5 +74,12 @@
           </footer>
     </div>
     
+
+    <script>
+        var hamburger = document.querySelector(".hamburger");
+        hamburger.addEventListener("click", function() {
+          hamburger.classList.toggle("is-active");
+        });
+      </script>
 </body>
 </html>
